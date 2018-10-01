@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
         let hour = d.getHours();
         let min = d.getMinutes();
         let sec = d.getSeconds();
-        
         if (hour.toString().length < 2) {
             hour = "0" + hour;
         }
